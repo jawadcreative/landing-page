@@ -1,0 +1,1017 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="bg-[#F1F1F1]">
+      <nav class="px-6 py-4">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+          <a href="#" class="text-3xl font-bold tracking-tight"> Brand. </a>
+
+          <ul class="hidden md:flex items-center gap-10 text-gray-300">
+            <li>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-gray-400 text-black transition"
+              >
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black transition">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black transition">
+                Services
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black transition">
+                Portfolio
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black transition">
+                Contact
+              </a>
+            </li>
+          </ul>
+
+          <a
+            href="#"
+            class="hidden md:block bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
+          >
+            Get Started →
+          </a>
+
+          <button
+            id="menu-btn"
+            class="md:hidden focus:outline-none"
+            aria-label="Toggle navigation"
+            aria-expanded="false"
+          >
+            <i class="ri-menu-4-line"></i>
+          </button>
+        </div>
+
+        <div
+          id="mobile-menu"
+          class="hidden md:hidden mt-5 border-t border-gray-800 pt-5"
+        >
+          <ul class="flex flex-col gap-5 text-gray-300">
+            <li><a href="#" class="hover:text-gray-400 text-black">Home</a></li>
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black">Services</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-gray-400 text-black">Contact</a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                class="inline-block bg-indigo-600 px-6 py-3 rounded-lg text-white hover:bg-indigo-700 transition"
+              >
+                Get Started →
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section
+        class="page1 flex min-h-screen min-h-[100svh] w-full items-end px-5 py-8 sm:px-8 sm:py-10 lg:px-12"
+      >
+        <div
+          class="flex w-full flex-col gap-12 sm:gap-16 md:h-[85vh] md:flex-row md:gap-0"
+        >
+          <div
+            class="flex w-full flex-col justify-between gap-12 md:h-full md:w-[60%]"
+          >
+            <div class="">
+              <h1 class="heroH1 text-2xl leading-tight sm:text-3xl lg:text-4xl">
+                We craft
+                <span
+                  class="reveal relative [--p:0%] before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-2 before:w-[var(--p)] before:bg-[red] before:z-10"
+                  >brands, websites and digital <br />
+                  product for businesses</span
+                >
+                that want to <br />
+                stand out and grow
+              </h1>
+            </div>
+            <div class="">
+              <h1
+                class="zeyna flex items-center text-5xl leading-none sm:text-7xl lg:text-8xl"
+              >
+                ZEYNA<sub>&copy;</sub>
+              </h1>
+              <h1 class="zeyna text-5xl leading-none sm:text-7xl lg:text-8xl">
+                CREATIVE
+              </h1>
+            </div>
+          </div>
+          <div class="flex w-full items-center md:h-full md:w-[40%]">
+            <div class="flex flex-col items-start gap-6 sm:gap-8">
+              <h2>(BASED IN LONDON, UK)</h2>
+              <p class="max-w-md leading-relaxed">
+                From brand identify to digital experiences, we design with
+                purpose and build with precious
+              </p>
+              <button
+                id="heroBtn"
+                class="flex items-center justify-start text-left pl-2 pr-4 py-2 bg-white gap-2 rounded-full group"
+              >
+                <span
+                  class="h-9 w-9 bg-black rounded-full text-white flex items-center justify-center group-hover:-rotate-45 duration-300"
+                >
+                  <i class="ri-arrow-right-long-line"></i>
+                </span>
+                <div class="h-4 overflow-hidden">
+                  <p class="btnText1 leading-none">Latests works</p>
+                  <p class="btnText2 leading-none">Latests works</p>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full bg-white rounded-none lg:rounded-[40px] px-5 py-12 md:px-10 md:py-16 lg:px-[52px] lg:py-[120px]"
+      >
+        <div
+          class="flex flex-col gap-4 md:flex-row md:justify-between md:items-start mb-8 md:mb-9"
+        >
+          <div>
+            <p class="text-accent text-xl font-medium">Services</p>
+            <h2
+              class="text-black text-[36px] lg:text-[40px] leading-none font-medium tracking-tight"
+            >
+              What We Offer
+            </h2>
+          </div>
+          <p
+            class="max-w-[420px] text-[13px] leading-6 text-neutral-500 lg:mr-[40px]"
+          >
+            Comprehensive tech solutions, including custom software development,
+            mobile apps, cloud services, and UI/UX design, crafted to meet your
+            business needs
+          </p>
+        </div>
+
+        <div
+          id="accordion"
+          class="flex flex-col md:flex-row gap-3 lg:gap-[26px] h-[800px] md:h-[400px]"
+        >
+          <article
+            data-card
+            data-active="false"
+            tabindex="0"
+            class="group relative shrink-0 grow-0 basis-[72px] md:basis-[64px] lg:basis-[80px] data-[active=true]:grow rounded-[24px] lg:rounded-[30px] overflow-hidden bg-panel cursor-pointer transition-[flex-grow] duration-700 ease-[cubic-bezier(.65,0,.35,1)]"
+          >
+            <div
+              class="absolute inset-0 flex items-center justify-between px-5 md:flex-col md:justify-start md:px-0 md:py-4 text-black transition-opacity duration-300 group-data-[active=true]:opacity-0 group-data-[active=true]:pointer-events-none"
+            >
+              <span
+                class="text-[16px] lg:text-[18px] font-medium whitespace-nowrap md:mt-auto md:[writing-mode:vertical-rl] md:rotate-180"
+                >Custom Software Development</span
+              >
+              <span
+                class="size-12 lg:size-[58px] rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] lg:text-[17px] font-medium md:mt-6"
+                >01</span
+              >
+            </div>
+            <div
+              class="absolute inset-0 min-h-[380px] md:min-h-0 lg:min-w-[440px] flex flex-col justify-end p-5 text-white opacity-0 transition-opacity duration-500 group-data-[active=true]:opacity-100 group-data-[active=true]:delay-300 bg-[#100c1f] bg-[radial-gradient(circle_at_70%_40%,rgba(150,100,255,0.4),transparent_55%)]"
+            >
+              <h3
+                class="relative text-[30px] md:text-[32px] lg:text-[44px] leading-[1.05] font-medium tracking-tight max-w-[360px]"
+              >
+                Custom Software Development
+              </h3>
+              <p class="relative mt-3 text-[13px] leading-5 max-w-[380px]">
+                Tailor-made software built around your workflows, from first MVP
+                to platforms that scale with your business.
+              </p>
+              <div class="relative mt-6 flex items-center justify-between">
+                <span
+                  class="size-[58px] rounded-full bg-[#e6e1e0] text-black grid place-items-center text-[17px] font-medium"
+                  >01</span
+                >
+                <a
+                  href="#"
+                  aria-label="Open Custom Software Development"
+                  class="size-[58px] rounded-full bg-accent grid place-items-center hover:scale-105 transition-transform"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7 17 17 7M8 7h9v9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            data-card
+            data-active="false"
+            tabindex="0"
+            class="group relative shrink-0 grow-0 basis-[72px] md:basis-[64px] lg:basis-[80px] data-[active=true]:grow rounded-[24px] lg:rounded-[30px] overflow-hidden bg-panel cursor-pointer transition-[flex-grow] duration-700 ease-[cubic-bezier(.65,0,.35,1)]"
+          >
+            <div
+              class="absolute inset-0 flex items-center justify-between px-5 md:flex-col md:justify-start md:px-0 md:py-4 text-black transition-opacity duration-300 group-data-[active=true]:opacity-0 group-data-[active=true]:pointer-events-none"
+            >
+              <span
+                class="text-[16px] lg:text-[18px] font-medium whitespace-nowrap md:mt-auto md:[writing-mode:vertical-rl] md:rotate-180"
+                >Mobile App Development</span
+              >
+              <span
+                class="size-12 lg:size-[58px] rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] lg:text-[17px] font-medium md:mt-6"
+                >02</span
+              >
+            </div>
+            <div
+              class="absolute inset-0 min-h-[380px] md:min-h-0 lg:min-w-[440px] flex flex-col justify-end p-5 text-white opacity-0 transition-opacity duration-500 group-data-[active=true]:opacity-100 group-data-[active=true]:delay-300 bg-[#071a17] bg-[radial-gradient(circle_at_70%_40%,rgba(40,200,160,0.4),transparent_55%)]"
+            >
+              <h3
+                class="relative text-[30px] md:text-[32px] lg:text-[44px] leading-[1.05] font-medium tracking-tight max-w-[360px]"
+              >
+                Mobile App Development
+              </h3>
+              <p class="relative mt-3 text-[13px] leading-5 max-w-[380px]">
+                Fast, polished iOS and Android apps designed for real users and
+                built to keep them coming back.
+              </p>
+              <div class="relative mt-6 flex items-center justify-between">
+                <span
+                  class="size-[58px] rounded-full bg-[#e6e1e0] text-black grid place-items-center text-[17px] font-medium"
+                  >02</span
+                >
+                <a
+                  href="#"
+                  aria-label="Open Mobile App Development"
+                  class="size-[58px] rounded-full bg-accent grid place-items-center hover:scale-105 transition-transform"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7 17 17 7M8 7h9v9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            data-card
+            data-active="false"
+            tabindex="0"
+            class="group relative shrink-0 grow-0 basis-[72px] md:basis-[64px] lg:basis-[80px] data-[active=true]:grow rounded-[24px] lg:rounded-[30px] overflow-hidden bg-panel cursor-pointer transition-[flex-grow] duration-700 ease-[cubic-bezier(.65,0,.35,1)]"
+          >
+            <div
+              class="absolute inset-0 flex items-center justify-between px-5 md:flex-col md:justify-start md:px-0 md:py-4 text-black transition-opacity duration-300 group-data-[active=true]:opacity-0 group-data-[active=true]:pointer-events-none"
+            >
+              <span
+                class="text-[16px] lg:text-[18px] font-medium whitespace-nowrap md:mt-auto md:[writing-mode:vertical-rl] md:rotate-180"
+                >Cloud Services</span
+              >
+              <span
+                class="size-12 lg:size-[58px] rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] lg:text-[17px] font-medium md:mt-6"
+                >03</span
+              >
+            </div>
+            <div
+              class="absolute inset-0 min-h-[380px] md:min-h-0 lg:min-w-[440px] flex flex-col justify-end p-5 text-white opacity-0 transition-opacity duration-500 group-data-[active=true]:opacity-100 group-data-[active=true]:delay-300 bg-[#08162b] bg-[radial-gradient(circle_at_70%_40%,rgba(70,140,255,0.4),transparent_55%)]"
+            >
+              <h3
+                class="relative text-[30px] md:text-[32px] lg:text-[44px] leading-[1.05] font-medium tracking-tight max-w-[360px]"
+              >
+                Cloud Services
+              </h3>
+              <p class="relative mt-3 text-[13px] leading-5 max-w-[380px]">
+                Secure, reliable cloud infrastructure and migration that keeps
+                your product fast, available and cost-efficient.
+              </p>
+              <div class="relative mt-6 flex items-center justify-between">
+                <span
+                  class="size-[58px] rounded-full bg-[#e6e1e0] text-black grid place-items-center text-[17px] font-medium"
+                  >03</span
+                >
+                <a
+                  href="#"
+                  aria-label="Open Cloud Services"
+                  class="size-[58px] rounded-full bg-accent grid place-items-center hover:scale-105 transition-transform"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7 17 17 7M8 7h9v9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            data-card
+            data-active="true"
+            tabindex="0"
+            class="group relative shrink-0 grow-0 basis-[72px] md:basis-[64px] lg:basis-[80px] data-[active=true]:grow rounded-[24px] lg:rounded-[30px] overflow-hidden bg-panel cursor-pointer transition-[flex-grow] duration-700 ease-[cubic-bezier(.65,0,.35,1)]"
+          >
+            <div
+              class="absolute inset-0 flex items-center justify-between px-5 md:flex-col md:justify-start md:px-0 md:py-4 text-black transition-opacity duration-300 group-data-[active=true]:opacity-0 group-data-[active=true]:pointer-events-none"
+            >
+              <span
+                class="text-[16px] lg:text-[18px] font-medium whitespace-nowrap md:mt-auto md:[writing-mode:vertical-rl] md:rotate-180"
+                >Cybersecurity Solutions</span
+              >
+              <span
+                class="size-12 lg:size-[58px] rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] lg:text-[17px] font-medium md:mt-6"
+                >04</span
+              >
+            </div>
+            <div
+              class="absolute inset-0 min-h-[380px] md:min-h-0 lg:min-w-[440px] flex flex-col justify-end p-5 text-white opacity-0 transition-opacity duration-500 group-data-[active=true]:opacity-100 group-data-[active=true]:delay-300 bg-[#0a0f18] bg-[radial-gradient(circle_at_70%_40%,rgba(60,180,210,0.4),transparent_55%)]"
+            >
+              <h3
+                class="relative text-[30px] md:text-[32px] lg:text-[44px] leading-[1.05] font-medium tracking-tight max-w-[360px]"
+              >
+                Cybersecurity Solutions
+              </h3>
+              <p class="relative mt-3 text-[13px] leading-5 max-w-[380px]">
+                Robust cybersecurity services to protect your data, ensure
+                privacy, and safeguard your business against evolving threats.
+              </p>
+              <div class="relative mt-6 flex items-center justify-between">
+                <span
+                  class="size-[58px] rounded-full bg-[#e6e1e0] text-black grid place-items-center text-[17px] font-medium"
+                  >04</span
+                >
+                <a
+                  href="#"
+                  aria-label="Open Cybersecurity Solutions"
+                  class="size-[58px] rounded-full bg-accent grid place-items-center hover:scale-105 transition-transform"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7 17 17 7M8 7h9v9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            data-card
+            data-active="false"
+            tabindex="0"
+            class="group relative shrink-0 grow-0 basis-[72px] md:basis-[64px] lg:basis-[80px] data-[active=true]:grow rounded-[24px] lg:rounded-[30px] overflow-hidden bg-panel cursor-pointer transition-[flex-grow] duration-700 ease-[cubic-bezier(.65,0,.35,1)]"
+          >
+            <div
+              class="absolute inset-0 flex items-center justify-between px-5 md:flex-col md:justify-start md:px-0 md:py-4 text-black transition-opacity duration-300 group-data-[active=true]:opacity-0 group-data-[active=true]:pointer-events-none"
+            >
+              <span
+                class="text-[16px] lg:text-[18px] font-medium whitespace-nowrap md:mt-auto md:[writing-mode:vertical-rl] md:rotate-180"
+                >UI/UX Design</span
+              >
+              <span
+                class="size-12 lg:size-[58px] rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] lg:text-[17px] font-medium md:mt-6"
+                >05</span
+              >
+            </div>
+            <div
+              class="absolute inset-0 min-h-[380px] md:min-h-0 lg:min-w-[440px] flex flex-col justify-end p-5 text-white opacity-0 transition-opacity duration-500 group-data-[active=true]:opacity-100 group-data-[active=true]:delay-300 bg-[#1f0e0a] bg-[radial-gradient(circle_at_70%_40%,rgba(255,120,80,0.4),transparent_55%)]"
+            >
+              <h3
+                class="relative text-[30px] md:text-[32px] lg:text-[44px] leading-[1.05] font-medium tracking-tight max-w-[360px]"
+              >
+                UI/UX Design
+              </h3>
+              <p class="relative mt-3 text-[13px] leading-5 max-w-[380px]">
+                Clear, intuitive interfaces and user flows that turn complex
+                products into experiences people enjoy using.
+              </p>
+              <div class="relative mt-6 flex items-center justify-between">
+                <span
+                  class="size-[58px] rounded-full bg-[#e6e1e0] text-black grid place-items-center text-[17px] font-medium"
+                  >05</span
+                >
+                <a
+                  href="#"
+                  aria-label="Open UI/UX Design"
+                  class="size-[58px] rounded-full bg-accent grid place-items-center hover:scale-105 transition-transform"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7 17 17 7M8 7h9v9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            data-card
+            data-active="false"
+            tabindex="0"
+            class="group relative shrink-0 grow-0 basis-[72px] md:basis-[64px] lg:basis-[80px] data-[active=true]:grow rounded-[24px] lg:rounded-[30px] overflow-hidden bg-panel cursor-pointer transition-[flex-grow] duration-700 ease-[cubic-bezier(.65,0,.35,1)]"
+          >
+            <div
+              class="absolute inset-0 flex items-center justify-between px-5 md:flex-col md:justify-start md:px-0 md:py-4 text-black transition-opacity duration-300 group-data-[active=true]:opacity-0 group-data-[active=true]:pointer-events-none"
+            >
+              <span
+                class="text-[16px] lg:text-[18px] font-medium whitespace-nowrap md:mt-auto md:[writing-mode:vertical-rl] md:rotate-180"
+                >Enterprise Solutions</span
+              >
+              <span
+                class="size-12 lg:size-[58px] rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] lg:text-[17px] font-medium md:mt-6"
+                >06</span
+              >
+            </div>
+            <div
+              class="absolute inset-0 min-h-[380px] md:min-h-0 lg:min-w-[440px] flex flex-col justify-end p-5 text-white opacity-0 transition-opacity duration-500 group-data-[active=true]:opacity-100 group-data-[active=true]:delay-300 bg-[#14161a] bg-[radial-gradient(circle_at_70%_40%,rgba(230,190,90,0.35),transparent_55%)]"
+            >
+              <h3
+                class="relative text-[30px] md:text-[32px] lg:text-[44px] leading-[1.05] font-medium tracking-tight max-w-[360px]"
+              >
+                Enterprise Solutions
+              </h3>
+              <p class="relative mt-3 text-[13px] leading-5 max-w-[380px]">
+                End-to-end systems, integrations and automation designed for
+                large teams, complex processes and long-term growth.
+              </p>
+              <div class="relative mt-6 flex items-center justify-between">
+                <span
+                  class="size-[58px] rounded-full bg-[#e6e1e0] text-black grid place-items-center text-[17px] font-medium"
+                  >06</span
+                >
+                <a
+                  href="#"
+                  aria-label="Open Enterprise Solutions"
+                  class="size-[58px] rounded-full bg-accent grid place-items-center hover:scale-105 transition-transform"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M7 17 17 7M8 7h9v9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section
+        class="w-full bg-white rounded-none lg:rounded-[40px] px-5 py-12 md:px-10 md:py-16 lg:px-[52px] lg:py-[100px] border-t border-neutral-100 lg:border-t-0"
+      >
+        <div
+          class="flex flex-col gap-4 md:flex-row md:justify-between md:items-start mb-8 md:mb-10"
+        >
+          <div>
+            <p class="text-accent text-xl font-medium">Testimonials</p>
+            <h2
+              class="text-black text-[36px] lg:text-[40px] leading-none font-medium tracking-tight"
+            >
+              What Clients Say
+            </h2>
+          </div>
+          <p
+            class="max-w-[420px] text-[13px] leading-6 text-neutral-500 lg:mr-[40px]"
+          >
+            Real feedback from the teams we've worked with, on the quality of
+            our work, how we communicate, and the results we deliver.
+          </p>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+          <figure
+            class="relative md:col-span-2 overflow-hidden rounded-[24px] lg:rounded-[30px] bg-[#0a0f18] bg-[radial-gradient(circle_at_85%_15%,rgba(60,180,210,0.35),transparent_55%)] p-6 md:p-8 lg:p-10 text-white flex flex-col justify-between gap-10 min-h-[320px]"
+          >
+            <div>
+              <span
+                class="block text-accent text-[72px] leading-[0.6] font-semibold select-none"
+                aria-hidden="true"
+                >“</span
+              >
+              <blockquote
+                class="mt-6 text-[22px] md:text-[26px] lg:text-[30px] leading-[1.25] font-medium tracking-tight max-w-[640px]"
+              >
+                They turned a vague idea into a product our team uses every day.
+                Communication was clear, deadlines were respected, and the
+                result was better than we pictured.
+              </blockquote>
+            </div>
+            <figcaption class="flex items-center justify-between gap-4">
+              <div class="flex items-center gap-4">
+                <span
+                  class="size-12 rounded-full bg-white/15 grid place-items-center text-[15px] font-medium"
+                  >CN</span
+                >
+                <div>
+                  <p class="text-[15px] font-medium">Client Name</p>
+                  <p class="text-[13px] text-white/60">Role, Company</p>
+                </div>
+              </div>
+              <span
+                class="text-accent tracking-[3px] text-[15px]"
+                role="img"
+                aria-label="5 out of 5 stars"
+                >★★★★★</span
+              >
+            </figcaption>
+          </figure>
+
+          <figure
+            class="flex flex-col justify-between gap-8 rounded-[24px] lg:rounded-[30px] bg-panel p-6 lg:p-8 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <span
+                class="text-accent tracking-[3px] text-[15px]"
+                role="img"
+                aria-label="5 out of 5 stars"
+                >★★★★★</span
+              >
+              <blockquote class="mt-4 text-[16px] leading-7 text-neutral-800">
+                Our move to the cloud went smoothly, with zero downtime and a
+                noticeable drop in monthly costs.
+              </blockquote>
+            </div>
+            <figcaption class="flex items-center gap-4">
+              <span
+                class="size-12 rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] font-medium"
+                >CN</span
+              >
+              <div>
+                <p class="text-[15px] font-medium text-black">Client Name</p>
+                <p class="text-[13px] text-neutral-500">Role, Company</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="flex flex-col justify-between gap-8 rounded-[24px] lg:rounded-[30px] bg-panel p-6 lg:p-8 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <span
+                class="text-accent tracking-[3px] text-[15px]"
+                role="img"
+                aria-label="5 out of 5 stars"
+                >★★★★★</span
+              >
+              <blockquote class="mt-4 text-[16px] leading-7 text-neutral-800">
+                The redesign made our app far easier to use, and support
+                requests dropped within weeks of launch.
+              </blockquote>
+            </div>
+            <figcaption class="flex items-center gap-4">
+              <span
+                class="size-12 rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] font-medium"
+                >CN</span
+              >
+              <div>
+                <p class="text-[15px] font-medium text-black">Client Name</p>
+                <p class="text-[13px] text-neutral-500">Role, Company</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="flex flex-col justify-between gap-8 rounded-[24px] lg:rounded-[30px] bg-panel p-6 lg:p-8 transition-transform duration-300 hover:-translate-y-1"
+          >
+            <div>
+              <span
+                class="text-accent tracking-[3px] text-[15px]"
+                role="img"
+                aria-label="5 out of 5 stars"
+                >★★★★★</span
+              >
+              <blockquote class="mt-4 text-[16px] leading-7 text-neutral-800">
+                Security used to worry us. Now we have clear processes and a
+                team we trust to respond fast.
+              </blockquote>
+            </div>
+            <figcaption class="flex items-center gap-4">
+              <span
+                class="size-12 rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] font-medium"
+                >CN</span
+              >
+              <div>
+                <p class="text-[15px] font-medium text-black">Client Name</p>
+                <p class="text-[13px] text-neutral-500">Role, Company</p>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure
+            class="flex flex-col justify-between gap-8 rounded-[24px] lg:rounded-[30px] bg-panel p-6 lg:p-8 transition-transform duration-300 hover:-translate-y-1 md:col-span-2 lg:col-span-1"
+          >
+            <div>
+              <span
+                class="text-accent tracking-[3px] text-[15px]"
+                role="img"
+                aria-label="5 out of 5 stars"
+                >★★★★★</span
+              >
+              <blockquote class="mt-4 text-[16px] leading-7 text-neutral-800">
+                From first call to launch, the process felt organized and
+                honest. We'd happily work together again.
+              </blockquote>
+            </div>
+            <figcaption class="flex items-center gap-4">
+              <span
+                class="size-12 rounded-full bg-[#d9d9d9] grid place-items-center text-[15px] font-medium"
+                >CN</span
+              >
+              <div>
+                <p class="text-[15px] font-medium text-black">Client Name</p>
+                <p class="text-[13px] text-neutral-500">Role, Company</p>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="min-h-screen flex items-center justify-center px-5 py-16">
+        <div
+          class="max-w-6xl w-full bg-white rounded-3xl shadow-xl overflow-hidden grid grid-cols-1 md:grid-cols-2"
+        >
+          <div
+            class="bg-black text-white p-8 md:p-12 flex flex-col justify-between"
+          >
+            <div>
+              <span class="text-sm font-semibold uppercase tracking-widest">
+                Get in touch
+              </span>
+
+              <h1 class="text-4xl md:text-5xl font-bold mt-5 leading-tight">
+                Let's talk about your next project.
+              </h1>
+
+              <p class="text-gray-400 mt-6 leading-relaxed">
+                Have a question or want to work together? We'd love to hear from
+                you. Send us a message and we'll get back to you soon.
+              </p>
+            </div>
+
+            <div class="mt-16 space-y-8">
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-12 h-12 bg-gray-900 rounded-xl flex items-center justify-center text-xl"
+                >
+                  ✉
+                </div>
+                <div>
+                  <p class="text-gray-400 text-sm">Email us</p>
+                  <p class="font-medium">hello@example.com</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-12 h-12 bg-gray-900 rounded-xl flex items-center justify-center text-xl"
+                >
+                  ☎
+                </div>
+                <div>
+                  <p class="text-gray-400 text-sm">Call us</p>
+                  <p class="font-medium">+1 234 567 890</p>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4">
+                <div
+                  class="w-12 h-12 bg-gray-900 rounded-xl flex items-center justify-center text-xl"
+                >
+                  📍
+                </div>
+                <div>
+                  <p class="text-gray-400 text-sm">Visit us</p>
+                  <p class="font-medium">New York, USA</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-16">
+              <p class="text-gray-400 text-sm mb-4">Follow us</p>
+              <div class="flex gap-5 text-sm font-medium">
+                <a href="#" class="hover:text-gray-400 transition">Instagram</a>
+                <a href="#" class="hover:text-gray-400 transition">Twitter</a>
+                <a href="#" class="hover:text-gray-400 transition">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-8 md:p-12">
+            <h2 class="text-3xl font-bold text-gray-900">Send us a message</h2>
+
+            <p class="text-gray-500 mt-3 mb-10">
+              Fill out the form below and we'll contact you.
+            </p>
+
+            <form class="space-y-6">
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">
+                  Your Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  class="w-full px-4 py-3 rounded-xl border border-gray-200 outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-100 transition"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">
+                  Email Address
+                </label>
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="w-full px-4 py-3 rounded-xl border border-gray-200 outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-100 transition"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">
+                  Subject
+                </label>
+                <input
+                  type="text"
+                  placeholder="What is this about?"
+                  class="w-full px-4 py-3 rounded-xl border border-gray-200 outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-100 transition"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">
+                  Message
+                </label>
+                <textarea
+                  rows="5"
+                  placeholder="Write your message here..."
+                  class="w-full px-4 py-3 rounded-xl border border-gray-200 outline-none focus:border-gray-500 focus:ring-2 focus:ring-gray-100 transition resize-none"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full bg-black text-white font-semibold py-4 rounded-xl hover:bg-gray-700 transition duration-300"
+              >
+                Send Message →
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-gray-950 text-white pt-16 pb-8 px-6">
+        <div class="max-w-7xl mx-auto">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-14 border-b border-gray-800"
+          >
+            <div>
+              <h2 class="text-3xl font-bold tracking-tight">Brand.</h2>
+
+              <p class="text-gray-400 mt-5 leading-relaxed">
+                We create modern digital experiences that help businesses grow
+                and connect with people.
+              </p>
+
+              <div class="flex gap-4 mt-6">
+                <a
+                  href="#"
+                  class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center hover:bg-gray-100 hover:text-black transition"
+                >
+                  f
+                </a>
+                <a
+                  href="#"
+                  class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center hover:bg-gray-100 hover:text-black transition"
+                >
+                  X
+                </a>
+                <a
+                  href="#"
+                  class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center hover:bg-gray-100 hover:text-black transition"
+                >
+                  in
+                </a>
+                <a
+                  href="#"
+                  class="w-10 h-10 rounded-full bg-gray-900 flex items-center justify-center hover:bg-gray-100 hover:text-black transition"
+                >
+                  ◎
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-semibold mb-6">Quick Links</h3>
+
+              <ul class="space-y-4 text-gray-400">
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >Portfolio</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-semibold mb-6">Our Services</h3>
+
+              <ul class="space-y-4 text-gray-400">
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >Web Development</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >UI/UX Design</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >App Development</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >Digital Marketing</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="hover:text-gray-600 transition"
+                    >SEO Optimization</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-semibold mb-6">Newsletter</h3>
+
+              <p class="text-gray-400 leading-relaxed mb-5">
+                Subscribe to our newsletter to receive the latest updates.
+              </p>
+
+              <form class="flex flex-col gap-3">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="w-full px-4 py-3 rounded-lg bg-gray-900 text-white border border-gray-700 outline-none focus:border-gray-500 transition"
+                />
+
+                <button
+                  type="submit"
+                  class="bg-white text-black hover:bg-gray-200 py-3 rounded-lg font-semibold transition"
+                >
+                  Subscribe →
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row justify-between items-center gap-5 pt-8"
+          >
+            <p class="text-gray-500 text-sm text-center">
+              © 2026 Brand. All rights reserved.
+            </p>
+
+            <div class="flex gap-6 text-sm text-gray-500">
+              <a href="#" class="hover:text-white transition">Privacy Policy</a>
+              <a href="#" class="hover:text-white transition"
+                >Terms of Service</a
+              >
+              <a href="#" class="hover:text-white transition">Cookies</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.1/gsap.min.js"
+      integrity="sha512-VMHB/Dy1/3d+djJPdMhxbplbZgbfPNHy+yWCxB1MSrwUEcNE+gnviL/DwlGsh9wwobnRTiQc6ChK2ZoJamshXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.1/ScrollTrigger.js"
+      integrity="sha512-4iHDKNbMvI3vN8PaG2om0+XXbn4BKjhdoi/Tnn8P7EBmqitPjNxGwtykyQOMcUGX+KbUQ0jHrBipOGfgE6Dkww=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.1/SplitText.js"
+      integrity="sha512-kfg15EWNToEO7M/iL8l7ZjRVywqIJJ6cZHXc8wcvqaHtwRqo1ANP44PeOIc6Cz5VMfmzCm6ZGQzvcUvb/mVqKA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
